@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* main - entry point
+* print_alphabet_x10 - prints alphabet 10 times
 *
 * Return: describes value of the return
 */
-int main(void)
+void print_alphabet_x10(void)
 {
 int x = 1, y;
 	for (x; x <= 10; x++)
@@ -16,5 +16,4 @@ int x = 1, y;
 		}
 		putchar('\n');
 }
-	return (0);
 }
