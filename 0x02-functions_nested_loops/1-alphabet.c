@@ -5,7 +5,7 @@
 *
 * Return: describes the value of the return
 */
-int main(void)
+void print_alphabet(void)
 {
 int x;
 for (x = 'a'; x <= 'z'; x++)
@@ -14,6 +14,5 @@ for (x = 'a'; x <= 'z'; x++)
 }
 {
 	putchar('\n');
-	return (0);
 }
 }
