@@ -2,7 +2,7 @@
 #include "main.h"
 /**
 * print_to_98 - prints all #'s from the given # to the # 98.  in order.
-* n: starting number given to start the count from
+* @n: starting number given to start the count from
 * Return: the output to the console
 */
 void print_to_98(int n)
