@@ -1,14 +1,16 @@
-#include <main.h>
+#include "main.h"
+
 /**
-* print_numbers: function to print numbers
-* @i: integer we will will be printing
+* print_numbers - function to print numbers
+* @i: integer
 * Return: void
 */
 
 void print_numbers(void)
 {
-	int i;
-	for (i = 0, i < 10, i++)
+	char i;
+
+	for (i = '0'; i  <= '9'; i++)
 	{
 		_putchar(i);
 	}
