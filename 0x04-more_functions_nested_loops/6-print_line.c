@@ -8,7 +8,7 @@
 
 void print_line(int n)
 {
-	int line = 0;
+	int line;
 	
 	if (n > 0)
 	{
@@ -16,9 +16,7 @@ void print_line(int n)
 		{
 			_putchar(95);
 		}
-		{
 			_putchar('\n');
-		}
 	}
 
 }
