@@ -1,9 +1,9 @@
-#include <main.h>
+#include "main.h"
 
 /**
 * _isupper - Uper C
-*  @c: value passed into function
-*  Return: displays output to console
+* @c: value passed into function
+* Return: displays output to console
 */
 
 int _isupper(int c)
