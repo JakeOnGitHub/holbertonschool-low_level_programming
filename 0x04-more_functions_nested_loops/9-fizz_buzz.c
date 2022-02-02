@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int x = 0;
+	int x;
 
 	for (x = 1; x <= 100; x++)
 	{
@@ -28,7 +28,7 @@ int main(void)
 		{
 			printf("%d ", x);
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 	return (0);
 }
