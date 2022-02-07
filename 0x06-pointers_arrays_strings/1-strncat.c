@@ -2,9 +2,9 @@
 
 /**
 * _strncat - function created to concatenate two strings
-* *dest: destination array
-* *src: source array
-* *n: postion in the array
+* @dest: destination array
+* @src: source array
+* @n: postion in the array
 * Return: return dest
 */
 
