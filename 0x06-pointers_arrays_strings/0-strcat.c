@@ -2,8 +2,9 @@
 
 /**
 * _strcat - function to concatenate string
-* dest:
-*
+* @dest: destination array
+* @src: source array
+* Return: dest array
 */
 
 char *_strcat(char *dest, char *src)
