@@ -4,7 +4,6 @@
 * square_root - function to find square root
 * @x: value given
 * @y: value given
-* _sqrt_recursion - finding square root through recursion
 * Return: is int square root?
 */
 
@@ -23,6 +22,12 @@ int square_root(int x, int y)
 		return (square_root(x + 1, y));
 	}
 }
+
+/**
+* _sqrt_recursion - fining square root through recursion
+* @n: number being evaluated
+* Return: square root or nahhhhhhhh
+*/
 
 int _sqrt_recursion(int n)
 {
