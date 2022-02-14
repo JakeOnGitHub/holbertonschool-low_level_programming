@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-nt _putchar(char c);
+int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int n);
