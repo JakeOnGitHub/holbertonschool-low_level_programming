@@ -11,12 +11,22 @@ int main(int argc, char *argv[])
 {
 	int sum = 0;
 	int x;
+	int y;
 	(void) argv;
 
 	if (argc > 2)
 	{
 		for (x = 1; x < argc; x++)
 		{
+			for (y = 0; argv[x][y] != '\0'; y++)
+			{
+				if (argv[x][y] < '0' || argv[x][y] > '9')
+				{
+				printf("Error\n");
+				return (1);
+				}
+			}
+
 			sum += atoi(argv[x]);
 		}
 		printf("%d\n", sum);
