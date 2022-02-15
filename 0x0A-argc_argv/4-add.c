@@ -12,7 +12,6 @@ int main(int argc, char *argv[])
 	int sum = 0;
 	int x;
 	int y;
-	(void) argv;
 
 	if (argc > 2)
 	{
