@@ -11,7 +11,7 @@ void print_all(const char * const format, ...)
 {
 	int x;
 	char *string, form;
-	
+
 	va_list vl;
 
 	va_start(vl, format);
@@ -19,7 +19,7 @@ void print_all(const char * const format, ...)
 	while (format != NULL && format[x] != '\0')
 	{
 		form = format[x];
-		switch(form)
+		switch (form)
 		{
 			case 'c':
 				printf("%c", va_arg(vl, int));
@@ -39,7 +39,8 @@ void print_all(const char * const format, ...)
 			default:
 				break;
 		}
-		if (format[x + 1] != '\0' && (form  == 'c' || form == 'i' || form == 'f' || form == 's'))
+		if (format[x + 1] != '\0' &&
+				(form  == 'c' || form == 'i' || form == 'f' || form == 's'))
 			printf(", ");
 		x++;
 	}
