@@ -25,14 +25,14 @@ list_t *add_node_end(list_t **head, const char *str)
 		free(newNode);
 		return (NULL);
 	}
-	
+
 	length = _strlen(cpyString);
 	newNode->str = cpyString;
 	newNode->len = length;
 	newNode->next = NULL;
-	
+
 	if (*head == NULL)
-	
+
 		*head = newNode;
 	else
 	{
