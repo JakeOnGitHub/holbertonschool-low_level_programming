@@ -4,7 +4,7 @@
 /**
 * add_node - add new node at the begining of the list
 * @head: pointer to the current node head
-@str: string to copy
+* @str: string to copy
 *
 * Return: address of new element, or NULL if failed
 */
@@ -31,6 +31,6 @@ list_t *add_node(list_t **head, const char *str)
 	newNode->len = length;
 	newNode->next = *head;
 	*head = newNode;
-	
+
 	return (newNode);
 }
