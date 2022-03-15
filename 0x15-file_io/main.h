@@ -34,6 +34,7 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+ssize_t read_textfile(const char *filename, size_t letters);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int clear_bit(unsigned long int *n, unsigned int index);
 int set_bit(unsigned long int *n, unsigned int index);
